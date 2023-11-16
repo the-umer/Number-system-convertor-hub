@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 46, 62);
+    margin: auto;
+    height: 100vh;
+  }
+  
+  .wrapper {
+    height: 95%;
+    width: 40%;
+    background-color: white;
+    border-radius: 1.2rem;
+    margin: auto;
+    box-shadow: 0px 24px 20px rgba(0, 0, 0, 0.25);
+  }
+  
+  .calculation-area {
+    background-color: #f1f1f1;
+    color: black;
+    width: 100%;
+    height: 30%;
+    padding: 1.5rem;
+    font-size: 4rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  
+  .btn {
+    background: none;
+    background-color: #cfcece;
+    color: black;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 2.2rem;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.3s;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .btn--special {
+    background-color: lightsalmon;
+  }
+  .btn--special-green {
+    background-color: rgb(113, 241, 113);
+  }
+  
+  .btn-clear,
+  .btn-clear-one {
+    background-color: rgba(255, 0, 0, 0.879);
+  }
+  
+  .keypad {
+    margin-top: 2rem;
+    width: auto;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .rows {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    gap: 0.7rem;
+  }
+  
+  @media (max-width: 1100px) {
+    .wrapper {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 975px) {
+    .wrapper {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 850px) {
+    .wrapper {
+      width: 60%;
+    }
+  }
+  
+  @media (max-width: 730px) {
+    .wrapper {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 630px) {
+    .wrapper {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 560px) {
+    .wrapper {
+      width: 90%;
+    }
+  }
+  @media (max-width: 500px) {
+    .wrapper {
+      width: 100%;
+      height: 90%;
+    }
+  
+    .btn {
+      font-size: 2rem;
+      height: 6.3rem;
+      width: 6.3rem;
+    }
+  }
