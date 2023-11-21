@@ -1,3 +1,3 @@
 # Number-system-convertor-hub
-I this you can convert number from one system to another(e.g binary to octal, decimal and vice versa etc)
+It is a webpage that convert number from one system to another(e.g binary to octal, decimal, hexadecimal and vice versa etc)
 [Live Demo](https://numbersystemconversions.netlify.app/)
